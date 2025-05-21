@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome</title>
+</head>
+<body>
+<h1>welcome, {{a}}~!</h1>
+
+<ul>
+    {{#b}}
+        <li>{{.}}</li>
+    {{/b}}
+</ul>
+
+<h2>menu</h2>
+<ul>
+    {{#c}}
+        <li>{{menu}},{{price}}</li>
+    {{/c}}
+</ul>
+</body>
+</html>
