@@ -27,8 +27,9 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.properties
-mvnw
-mvnw.cmd
+### 포함되도록 예외처리 ###
++ !mvnw
++ !mvnw.cmd
 .flattened-pom.xml
 !.mvn/wrapper/
 
